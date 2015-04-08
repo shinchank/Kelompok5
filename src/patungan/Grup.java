@@ -19,25 +19,45 @@ public class Grup{
 	private ArrayList<TempatMakan> tempat = new ArrayList<TempatMakan>();
 	private ArrayList<Person> person = new ArrayList<Person>();
 	private String tanggal;
-
+        
+        /**
+         * 
+         * @param nama 
+         */
 	public Grup(String nama){	
 		this.nama = nama +"_G"+Grup.idGrup;
 		Grup.idGrup++; 
 	}
-
+        
+        /**
+         * 
+         * @return 
+         */
 	public String getNamaGrup(){
 		return this.nama;
 	}
-
+        
+        /**
+         * 
+         * @param p 
+         */
 	public void addPerson(Person p){
 		person.add(p);
 		nP++;
 	}
-
+        
+        /**
+         * 
+         * @return 
+         */
 	public int getNP(){
 		return this.nP;
 	}
-
+        
+        /**
+         * 
+         * @param t 
+         */
 	public void addTempatMakan(TempatMakan t){
 		Date date = new Date();
 		DateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -45,11 +65,20 @@ public class Grup{
 		//System.out.println("Tanggal : "+tanggal);
 		tempat.add(t);
 	}
-
+        
+        /**
+         * 
+         * @return 
+         */
 	public ArrayList<TempatMakan> lihatTempatMakan(){
 		return new ArrayList<TempatMakan>(tempat);
 	}
         
+        /**
+         * 
+         * @param nama
+         * @return 
+         */
         public String cariTempatMakan(String nama){
             String result = "-1";
             for(int i = 0; i < tempat.size(); i++){
