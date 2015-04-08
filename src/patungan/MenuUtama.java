@@ -147,6 +147,7 @@ public class MenuUtama {
                 }
             case 4:
                 System.out.println("Terima kasih");
+                System.out.println("Thank you!!!");
         }
     }
 }
