@@ -104,6 +104,7 @@ public class MenuUtama {
         sc = new Scanner(System.in);
         String nama, alamat, noTelp;
         double harga, pajak;
+        System.out.println("Menu Utama: ");
         System.out.println("1. Tambah tempat makan");
         System.out.println("2. Tambah menu makan");
         System.out.println("3. Edit harga makanan");
