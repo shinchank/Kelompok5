@@ -145,6 +145,7 @@ public class MenuUtama {
                         System.out.println("Tempat Makan belum ada");
                 }
             case 4:
+                System.out.println("Terima kasih");
         }
     }
 }
