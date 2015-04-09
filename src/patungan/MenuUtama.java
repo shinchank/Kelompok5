@@ -50,11 +50,22 @@ public class MenuUtama {
             pil = sc.nextInt();
             switch (pil) {
                 case 1:
+                    System.out.println("Menu Buat Grup");
+                    break;
                 case 2:
+                    System.out.println("Menu Lihat Grup");
+                    break;
                 case 3:
+                    System.out.println("Lihat Tempat Makan");
+                    break;
                 case 4:
+                    System.out.println("Menu Cari Tempat Makan");
+                    break;
                 case 5:
+                    System.out.println("Menu Administrasi");
+                    break;
                 case 6:
+                    System.out.println("Anda akan keluar");
                     break;
             }
         } while (pil != 6);
