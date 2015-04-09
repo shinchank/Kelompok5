@@ -51,19 +51,23 @@ public class MenuUtama {
             switch (pil) {
                 case 1:
                     System.out.println("Menu Buat Grup");
-                    public void createGrup();
+                    createGrup();
                     break;
                 case 2:
                     System.out.println("Menu Lihat Grup");
+                    showGrup();
                     break;
                 case 3:
                     System.out.println("Lihat Tempat Makan");
+                    showTempatMakan();
                     break;
                 case 4:
                     System.out.println("Menu Cari Tempat Makan");
+                    searchTempatMakan();
                     break;
                 case 5:
                     System.out.println("Menu Administrasi");
+                    administrasi();
                     break;
                 case 6:
                     System.out.println("Anda akan keluar");
