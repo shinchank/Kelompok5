@@ -7,10 +7,10 @@ package patungan;
 
 /**
  *
- * @author shinchank
+ * @author SYAIR
  */
 public class TempatMakan {
-	private String namaTempat;
+    private String namaTempat;
 	private String alamat;
 	private String noTelp;
 	//private int nMenu = 0;
@@ -41,5 +41,6 @@ public class TempatMakan {
 
 	public MenuMakan lihatMenuMakan(){
 		return menu;
-	}  
+	}
+    
 }
