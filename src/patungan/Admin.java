@@ -7,8 +7,9 @@ package patungan;
 
 /**
  *
- * @author shinchank
+ * @author SYAIR
  */
+
 public class Admin extends Person{
 	private String nama;
 	private String id;
@@ -28,3 +29,4 @@ public class Admin extends Person{
 		this.id = id+"_"+g.getNamaGrup();
 	}
 }
+
